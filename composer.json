@@ -1,7 +1,7 @@
 {
     "name": "datapp/random-string-generator",
     "description": "generates a random string",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Manuel Dimmler",
