@@ -1,0 +1,29 @@
+{
+    "name": "datapp/random-string-generator",
+    "description": "generates a random string",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuel Dimmler",
+            "email": "info@datapp.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Datapp\\RandomString\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "datapp/random-byte-generator": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/datapp/random-byte-generator.git"
+        }
+    ]
+}
