@@ -1,3 +1,5 @@
 vendor
 nbproject
 test-reports
+.vscode
+.phpunit.result.cache

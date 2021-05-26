@@ -1,5 +1,5 @@
 <?php
-namespace Datapp\RandomString;
+namespace AldoBarr\RandomString\Contracts;
 
 interface RandomStringGeneratorInterface
 {
@@ -8,5 +8,5 @@ interface RandomStringGeneratorInterface
      * @param int $length the length of the requested random string
      * @return string
      */
-    public function generate(int $length): string;
+    public function generate(int $length = 16): string;
 }

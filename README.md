@@ -1,6 +1,6 @@
 # RandomStringGenerator
 
-two classes to generate random strings with given length
+Two classes to generate random strings with given length
 
 ## Requirements
 
@@ -13,21 +13,9 @@ Please use Composer for the installation. For Composer documentation, please ref
 
 Install the module:
 
-add to your composer.json
-```json
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/datapp/random-string-generator.git"
-        }
-    ]
-```
-
-then run
 ```sh
-$ php composer.phar require datapp/random-string-generator:~1.0
+$ composer require aldobarr/random-string-generator
 ```
 
-## Support
-
-- File issues at https://github.com/datapp/random-string-generator/issues.
+## License
+This is a fork of [Manuel Dimmler's random string generator](https://github.com/datapp/random-string-generator) license under the Apache 2.0 license.
