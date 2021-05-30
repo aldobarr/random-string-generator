@@ -18,4 +18,4 @@ $ composer require aldobarr/random-string-generator
 ```
 
 ## License
-This is a fork of [Manuel Dimmler's random string generator](https://github.com/datapp/random-string-generator) license under the Apache 2.0 license.
+This is a fork of [Manuel Dimmler's random string generator](https://github.com/datapp/random-string-generator) licensed under the Apache 2.0 license.

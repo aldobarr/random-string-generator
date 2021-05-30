@@ -29,10 +29,10 @@ class FlexibleRandomStringGenerator implements RandomStringGeneratorInterface{
 	 * @return string
 	 */
 	public function generate(int $length = 16): string{
-		$characters_length = strlen($this->charset);
+		$charset_max = strlen($this->charset) - 1;
 		$random_string = '';
 		for ($i = 0; $i < $length; $i++) {
-			$random_string .= $this->charset[random_int(0, $characters_length - 1)];
+			$random_string .= $this->charset[random_int(0, $charset_max)];
 		}
 
 		return $random_string;
