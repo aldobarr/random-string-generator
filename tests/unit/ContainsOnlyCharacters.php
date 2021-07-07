@@ -3,7 +3,7 @@
 trait ContainsOnlyCharacters{
 	private function getValidChars(string $alphabet): array{
 		$valid_chars = [];
-		for	($i = 0; $i < strlen($alphabet); $i++) {
+		for ($i = 0; $i < strlen($alphabet); $i++) {
 			$valid_chars[] = $alphabet[$i];
 		}
 
